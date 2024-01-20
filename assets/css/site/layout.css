@@ -6,9 +6,10 @@
 
 .site-content {
     flex-grow: 1;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
+/* 2024-01-21 changed top padding 60px→20px */
 
 .page-template .site-content {
     padding-block: 0;
@@ -16,6 +17,8 @@
 
 @media (max-width: 767px) {
     .site-content {
+        padding-top: 0;
         padding-bottom: 0;
     }
 }
+/* 2024-01-21 added padding-top=0 for mobile */
